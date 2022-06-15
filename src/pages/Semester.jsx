@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Semester() {
+const Semester = () => {
   return (
     <div>Semester</div>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Departments() {
+const Departments = () => {
   return (
     <div>Departments</div>
   )

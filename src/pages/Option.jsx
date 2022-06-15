@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Option() {
+const Option = () => {
   return (
     <div>Option</div>
   )

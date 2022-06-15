@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Session() {
+const Session = () => {
   return (
     <div>Session</div>
   )

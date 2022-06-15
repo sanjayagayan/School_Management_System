@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Programs() {
+const Programs = () => {
   return (
     <div>Programs</div>
   )
