@@ -2,7 +2,7 @@ import React from 'react'
 import './layout.css'
 import Sidebar from '../sidebar/Sidebar'
 import Routes from '../Routes'
-
+import TopNav from '../topnav/TopNav'
 
 import { BrowserRouter,Route } from 'react-router-dom'
 
@@ -14,6 +14,7 @@ const Layout = () => {
             <div className='layout'>
                 <Sidebar {...props}/>
                 <div className='layout_content'>
+                    <TopNav/>
                     <div className='layout_content-main'>
                         <Routes/>
                     </div>

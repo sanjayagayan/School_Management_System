@@ -65,3 +65,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.homeImage img{
+  width: 1150px;
+  height: 400px;
+}
