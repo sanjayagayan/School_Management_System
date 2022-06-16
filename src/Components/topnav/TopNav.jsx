@@ -1,6 +1,5 @@
 import React from 'react'
 import './topnav.css'
-
 import {Link} from 'react-router-dom'
 import Dropdown from '../dropdown/Dropdown'
 import notifications from '../../assets/JsonData/notification.json'
@@ -36,6 +35,16 @@ const renderUserToggle = (user) => (
     </div>
 )
 
+const renderUserMenu = (item,index) => (
+    <Link to='/' key={index}>
+        <div className="notification-item">
+            <i className={item.icon}></i>
+            <span>{item.content}</span>
+        </div>
+    </Link>
+)
+
+
 
 const TopNav = () => {
   return (
@@ -62,7 +71,9 @@ const TopNav = () => {
                 </div>
                 <div className="topnav_item">
                     <Dropdown
-                     icon='bx bx-user'
+                     customToggle={() => renderUserToggle(curr_user)}
+                     contentData={user_menu}
+                     renderItems={(item,index) => renderUserMenu(item,index)}
                     />
                 </div>
         </div>

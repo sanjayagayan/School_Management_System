@@ -65,3 +65,28 @@
     margin-right: 20px;
     font-size: 1.5rem;
 }
+
+.topnav__user
+{
+    display: flex;
+    align-items: center;
+}
+
+.topnav__user-user__image
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.topnav__user-user__image > img {
+    width:100%;
+}
+
+.topnav__user-user__name {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
