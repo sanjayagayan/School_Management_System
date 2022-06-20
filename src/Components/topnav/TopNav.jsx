@@ -58,15 +58,6 @@ const TopNav = () => {
                     <i className='bx bx-search'></i>
                 </div>
                 <div className="topnav_item">
-                    <Dropdown
-                         icon='bx bx-bell'
-                         badge='12'
-                         contentData = {notifications}
-                         renderItems={(item,index) => renderNotificationItem(item,index)}
-                         renderFooter={() => <Link to='/'>View All</Link>}
-                    />
-                </div>
-                <div className="topnav_item">
                     <Dropdown/>
                 </div>
                 <div className="topnav_item">

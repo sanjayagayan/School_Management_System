@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+
+.container
+{
+    width: 100%;
+    height: auto;
+}
+
+.row1
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+}
+.row2 button
+{
+    display:flex;
+    position:relative;
+    margin-top: 20px;
+    float: left;
+}
+
+.item
+{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 100px;
+}
+
+.options
+{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    width:250px;
+    height:100px;
+}
+
+.options select{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.options select option{
+    padding: 10px;
+}
