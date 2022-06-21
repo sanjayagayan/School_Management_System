@@ -70,3 +70,13 @@ code {
   width: 1150px;
   height: 400px;
 }
+
+.spacer
+{
+  height: 30px;
+}
+
+.btn
+{
+  padding: 10px 0px 10px 10px;
+}
